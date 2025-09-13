@@ -1,11 +1,18 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>base page</title>
+        <title>{% block title %}base page{% endblock %}</title>
+        <link rel="stylesheet" href="{% static 'styles/style.css' %}" />
     </head>
-    <body bgcolor="cyan">
+    <body>
         {% block content %} {% endblock %}
+
+        <footer class="footer">
+            <p class="footer-text">&copy; 2025 Okiror Samuel Vinald</p>
+        </footer>
     </body>
 </html>

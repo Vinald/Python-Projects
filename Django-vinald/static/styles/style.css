@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #333333;
+    font-size: 48px;
+}
+
+h2 {
+    color: #666666;
+    font-size: 24px;
+}
+
+p {
+    color: #555555;
+    font-size: 18px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+/* Form container */
+.add-form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 24px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+/* Form elements */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+    display: block;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+.form-input:focus {
+    border-color: #0078d7;
+    outline: none;
+}
+
+.form-button {
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.form-button:hover {
+    background: #005fa3;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #434141;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Result page styles */
+.result-title {
+    font-size: 2rem;
+    color: #0078d7;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.result-text {
+    font-size: 1.2rem;
+    color: #333;
+    background: #f1f7ff;
+    padding: 16px;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.result-value {
+    font-weight: bold;
+    color: #005fa3;
+}
+
+.back-link {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 8px 18px;
+    background: #e5e5e5;
+    color: #333;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+.back-link:hover {
+    background: #d1d1d1;
+}
