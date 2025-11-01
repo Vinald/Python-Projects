@@ -144,7 +144,8 @@ terraform.tfstate
 *.cer
 *.der
 .env
-.env.*
+.env.local
+.env.*.local
 .secret
 
 # Sphinx documentation
